@@ -1,0 +1,36 @@
+
+.span_first {
+    display: block;
+}
+
+.div_first {
+    display: inline;
+}
+
+span.a {
+    display: inline; /* width, height가 동작을 안한다 ss*/
+    /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.b {
+    display: inline-block; /* 해당하는 컨텐츠 사이 */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
