@@ -3,9 +3,10 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
+    background-color: antiquewhite;
 }
 .nav-item {
-    background-color: blue;
+    background-color:cornflowerblue;
     padding: 5px;
 }
 
