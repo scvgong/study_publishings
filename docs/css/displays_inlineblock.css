@@ -1,0 +1,10 @@
+/* list의 점 없애기 */
+.nav{
+    list-style-type: none; 
+    background-color: yellowgreen;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+}
