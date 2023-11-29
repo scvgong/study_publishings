@@ -8,3 +8,7 @@
     display: inline-block;
     padding: 20px;
 }
+
+a {
+    text-decoration: none; /* a 태그에 대한 언더바 라인 삭제 */
+}
