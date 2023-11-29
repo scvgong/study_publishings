@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <style>
+        /* main, h1, divß { 여러개 selector 지정*/
+        /* main > * {  하위 모든 tag */ 
+        body{
+            background-color: darkolivegreen;
+        }
+        main {
+            border-style: dotted;
+            height: 350px;
+            width: 600px;
+            background-color: burlywood;
+        }
+        h1 {
+            color:darkgreen;
+            border-style: dotted;
+            text-align: center;
+        }
+        div {
+            color:black;
+            text-indent: 40px;
+        }
+        span {
+            color:aquamarine;
+            border-style: dotted;
+        }
+    </style>
+    <link rel="stylesheet" href="../../../css/grids_menu.css">
+    <link rel="stylesheet" href="../../../css/selector_pseudoclass.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="../../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="./boders.html">border</a>
+            </li>
+            <li class="nav-item">
+                <a href="./texts.html">color text</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>TEXT FORMATTING</h1>
+        <div>This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties. 
+            <div>
+                The paragraph is indented, aligned, and the space between characters is specified. 
+                The underline is removed from this colored <span>"Try it Yourself"</span> link.
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
