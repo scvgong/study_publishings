@@ -17,7 +17,30 @@
     <main>
         <h2>dropdown button</h2>
         <div class="container">
+            <!-- 두 tag를 dropdown으로 묶음 -->
             <div class="dropdown">
+                <!-- button과 list를 연결 data-bs-toggle="dropdown" -->
+                <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdwon-item" href="http://">Link1</a>
+                    </li>
+                    <li>
+                        <a class="dropdwon-item" href="http://">Link2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>dropdown direction button</h2>
+        <div class="container">
+            <!-- 두 tag를 dropdown으로 묶음 -->
+            <div class="dropdown dropup">
+            <!-- <div class="dropdown dropstart"> -->
+            <!-- <div class="dropdown dropend"> -->
+                <!-- button과 list를 연결 data-bs-toggle="dropdown" -->
                 <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
                     Dropdown button
                 </button>
