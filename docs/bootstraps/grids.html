@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid</title>
+    <title>Grids</title>
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Customer CSS Commons.css -->
+    <!-- Customer CSS common.css -->
     <link rel="stylesheet" href="../css/commons.css">
-
-    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/color.css">
 
 </head>
-<body>
 
+<body>
     <nav class="container-fluid">nav</nav>
 
-    <main class="container">        
+    <!-- 두 개를 합했을 때 원하는 대로 나오지 않았으면, class name 분리 -->
+    <main class="container ">
+        <!-- justify content -->
+        <!-- commands : *-center, *-end, *-start -->
+        <!-- <div class="row justify-content-center"> -->
+        <!-- <div class="row justify-content-end"> -->
+        <!-- <div class="row justify-content-start"> -->
+        <!-- <div class="row justify-content-between"> -->
+        <div class="row justify-content-around">
+            <div class="col-12">justify content</div>
+            <div class="col-1 bg-primary">bg-primary</div>
+            <div class="col-1 bg-success">bg-success</div>
+            <div class="col-1 bg-info">bg-info</div>
+
+        </div>
         <div class="row">
-            <!-- mix colors (background + text) -->
+            <!-- mix colors -->
             <div class="row col-6">
                 <div class="col-6">mix color with text and background</div>
                 <div class="col-6 bg-success text-white">bg-success</div>
             </div>
-
-            <!-- back ground colors -->
+            <!-- background colors -->
             <div class="row col-6">
-                <div class="col-12">Background colors</div> <!-- 12개의 컬럼을 차지함 , col 옆에 숫자는 갯수의 의미-->
+                <div class="col-12">background colors</div>
                 <div class="col-1 bg-primary">bg-primary</div>
                 <div class="col-1 bg-success">bg-success</div>
                 <div class="col-1 bg-info">bg-info</div>
@@ -39,47 +51,35 @@
                 <div class="col-1 bg-primary">bg-primary</div>
                 <div class="col-1 bg-success">bg-success</div>
                 <div class="col-2 bg-info">bg-info</div>
+
             </div>
-            
+
             <!-- text colors -->
-            <div>
-                <div class="row col-12">
-                    <div class="col-12">Text color</div>
-                    <div class="col-1 text-muted">This text is muted.</div>
-                    <div class="col-1 text-primary">This text is important.</div>
-                    <div class="col-1 text-success">This text indicates success.</div>
-                    <div class="col-1 text-info">This text represents some information.</div>
-                    <div class="col-1 text-warning">This text represents a warning.</div>
-                    <div class="col-1 text-danger">This text represents danger.</div>
-                    <div class="col-1 text-secondary">Secondary text.</div>
-                    <div class="col-1 text-dark">This text is dark grey.</div>
-                    <div class="col-1 text-body">Default body color (often black).</div>
-                    <div class="col-1 text-light">This text is light grey (on white background).</div>
-                    <div class="col-1 text-white">This text is white (on white background).</div>
-                    <div class="col-1 text-muted">This text is muted.</div>
-                </div>
+            <div class="row col-12">
+                <div class="col-12">text colors</div>
+                <div class="col-1 text-muted">This text is muted.</div>
+                <div class="col-1 text-primary">This text is important.</div>
+                <div class="col-1 text-success">This text indicates success.</div>
+                <div class="col-1 text-info">This text represents some information.</div>
+                <div class="col-1 text-warning">This text represents a warning.</div>
+                <div class="col-1 text-danger">This text represents danger.</div>
+                <div class="col-1 text-secondary">Secondary text.</div>
+                <div class="col-1 text-dark">This text is dark grey.</div>
+                <div class="col-1 text-body">Default body color (often black).</div>
+                <div class="col-1 text-light">This text is light grey (on white background).</div>
+                <div class="col-2 text-white">This text is white (on white background).</div>
             </div>
+
         </div>
 
-        <!-- justifiy content -->
-        <!-- <div class="row justify-content-start"> -->
-        <!-- <div class="row justify-content-center"> -->
-        <!-- <div class="row justify-content-end"> -->
-        <!-- <div class="row justify-content-between"> -->
-        <div class="row justify-content-around">
-            <div class="col-12">justifiy content</div>
-            <div class="col-1 bg-primary">bg-primary</div>
-            <div class="col-1 bg-success">bg-success</div>
-            <div class="col-1 bg-info">bg-info</div>
-        </div>
+
 
     </main>
-    
-    <footer class="container-fluid">footer</footer>
-    
-</body>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="container-fluid">inner footer</footer>
+</body>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
