@@ -2,7 +2,7 @@
 
 ## HTML 태그
 - table 태그 : table 만들때 사용되는 태그
-  <br> tr -> 행, td -> 열
+  <br> - tr -> 행, td -> 열
 - a 태그 : 링크삽입때 사용되는 태그
   <br> href 속성을 이용해서 사용
   <br> - 외부 url 주소 or 내부 경로
