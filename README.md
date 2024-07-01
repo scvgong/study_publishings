@@ -1,6 +1,6 @@
-# HTML, CSS, BOOTSTRAPS 수업 내용 정리
+# HTML, CSS, BOOTstrap 수업 내용 정리
 
-## HTML 태그
+## HTML
 - table 태그 : table 만들때 사용되는 태그
   <br> - tr, td 이용해서 행/열 로 만듬
 - a 태그 : 링크삽입때 사용되는 태그
@@ -16,3 +16,24 @@
   <br> - file
   <br> - hidden
   <br> - password
+
+## CSS 
+* 변화 대상(글자, 이미지, 태그)에 색상, 굵기, 재배치
+* Inline CSS
+* Internal CSS
+* External CSS : 실제 사용 방식
+- border
+- color
+- selector
+- font
+
+## Bootstrap
+* 반응형 웹 만드는 프레임웍
+- button
+- card
+- color
+- container
+- dropdown
+- grid
+- nav
+- pagination
